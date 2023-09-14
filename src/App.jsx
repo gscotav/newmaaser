@@ -3,6 +3,25 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyBlXsyeg5XTmCQqIdv1MXO-bGo5aU-FIqE",
+  authDomain: "maaser-10835.firebaseapp.com",
+  databaseURL: "https://maaser-10835-default-rtdb.firebaseio.com",
+  projectId: "maaser-10835",
+  storageBucket: "maaser-10835.appspot.com",
+  messagingSenderId: "937738971373",
+  appId: "1:937738971373:web:b366604fad065ca12944e4"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
 function App() {
   const [count, setCount] = useState(0)
 
