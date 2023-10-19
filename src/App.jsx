@@ -51,7 +51,7 @@ function App() {
      
       <div>
         <button onClick={writeToDatabaseSeparateButton}>
-          Write Data to Firebase (Separate Button)
+           test Firebase
         </button>
       </div>
     </>
